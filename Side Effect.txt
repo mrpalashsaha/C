@@ -1,0 +1,14 @@
+you put something and expecting to get somthing but the function does somthing different than you have expected thats call side effect. 
+For example in the function side effect is printf, the only reason we are doing printf just to display something on the screen it does not return anything.
+the function that does not return anything at all call void(means nothing) function.
+++ = incriment function it increase by one 
+for example 
+  int x;
+  x= 6;
+  x++;
+  printf("%d", x),
+
+  y = x++; ( it give the value first and increase it later)
+  y = ++x; ( it will increase the vale before it return.
+  
+  
