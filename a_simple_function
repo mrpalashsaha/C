@@ -33,3 +33,7 @@
        return (daysLeft * SECOND_PER_DAY);
 
 }
+
+// A function has three stages which are 1) attributes, 2) reuse  and 3) scope, attributes are the concrete formate, which mentioned on the top 
+// of the main, reuse means using it in different places and the most importantly scope is using the variable only on its own s that it does not 
+// mixed with others. for example if we pack a luch box we do not mix everything in the box we keep everything sperate to keep it nice and eatable. 
