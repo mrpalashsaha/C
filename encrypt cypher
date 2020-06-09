@@ -1,0 +1,20 @@
+# include <stdio.h>
+# include <ctype.h>
+#include <assert.h>
+
+// encrypt with a substitution cyphar 
+
+    int main () (int argc, char *argv []) {
+    int cyphar [] = "bcdefghijklmnopqrstuvwxyza"                            // initialize array with the alpha 
+    char cypherChar = getchar ();
+    while (cypherChar != EOF) {
+      if (islower (cypherChar)) {
+        putchar(cyphar [ cypherChar - 'a']) ;
+        } else if isupper (cypherChar)) {
+        putchar(toupper (cypher [ cypherChar - 'A'])) ;
+        }
+    cypherChar = getchar ()
+    }
+
+    return 0; 
+    }
