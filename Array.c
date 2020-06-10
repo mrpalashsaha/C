@@ -6,6 +6,8 @@
 #define NUMVALUES (MAX_VSLUE-MIN_VALUE +1)
 #define GRID_SIZE ( NUM_VALUES * NUM_VALUES)
 #define MAX_CELL (GRID_SEIZE - 1)
+#define TRUE 1; 
+#define FALSE 0;
 typedef char value;
 typedef int cell;
 typedef sudukuGrid values [GRID_SIZE);
@@ -28,17 +30,17 @@ int main (int argc, const char *argv []) {
 }
                            
 int hasSolution (sudukuGrid game){
-  INT solved;
+  int solved;
   cell candidateCell;
   value trialValue
   if (isFull (game)) {
     solved = TRUE;
   } else {
-    candidateCell = getEmptyCell ( game) ;
+    candidateCell = getFreeCell ( game) ;
     trialvalue = MIN_VALUE;
     solved = FALSE;
     
-   while ( !solved && trialValue <= MAXVALUE)) {
+   while ( !isolved && trialValue <= MAXVALUE)) {
        if (isLegal (game, candidateCell, trialValule)) 
        setCell (game, candidateCell, trialValue);
         if (hasSolution (game)) {
@@ -47,7 +49,7 @@ int hasSolution (sudukuGrid game){
           clearCell (game, candidateCell);
         }
   }
-    trialValue =;
+    trialValue ;
   }
 }
   }
