@@ -12,3 +12,9 @@ for example
   y = ++x; ( it will increase the vale before it return.
   
   
+
+//& x = address of x) (the value of the cell *x) idirect addressing (*x = the value store in the x in this case *2, which refer to value of
+// the cell 2 which will print the value of the cell 2
+
+// pass by refference means sharing the same value and pass by value means copy the value and work on it differently
+// C always pass the refence of the Array,  
