@@ -32,7 +32,7 @@ int main (int argc, const char *argv []) {
 int hasSolution (sudukuGrid game){
   int solved;
   cell candidateCell;
-  value trialValue
+  value trialValue;
   if (isFull (game)) {
     solved = TRUE;
   } else {
@@ -40,7 +40,7 @@ int hasSolution (sudukuGrid game){
     trialvalue = MIN_VALUE;
     solved = FALSE;
     
-   while ( !isolved && trialValue <= MAXVALUE)) {
+   while ( !solved && trialValue <= MAXVALUE)) {
        if (isLegal (game, candidateCell, trialValule)) 
        setCell (game, candidateCell, trialValue);
         if (hasSolution (game)) {
@@ -49,7 +49,7 @@ int hasSolution (sudukuGrid game){
           clearCell (game, candidateCell);
         }
   }
-    trialValue ;
+    trialValue ++;
   }
 }
   }
@@ -57,7 +57,7 @@ int hasSolution (sudukuGrid game){
     
   return solved;
                            
-                           
+ }                    
                            
                            
                            
