@@ -1,0 +1,4 @@
+ADT is an extentional specification , is something that tells yo properties of the type and how you interect with the type and what the type 
+appears to be likeand we never going to the details what the type actually is ..if we tell you what the type actually is thats call concrete 
+type.. we dont phicially care what it is, we just want something that meets the specification. All i care about is how yout stack behave i dont a
+actually care what under the hood ...
