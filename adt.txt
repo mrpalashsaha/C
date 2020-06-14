@@ -1,4 +1,8 @@
-ADT is an extentional specification , is something that tells yo properties of the type and how you interect with the type and what the type 
-appears to be likeand we never going to the details what the type actually is ..if we tell you what the type actually is thats call concrete 
+ADT (Abstarct Data Type) is an extentional specification , is something that tells yo properties of the type and how you interect with the type and what the type 
+appears to be like and we never going to the details what the type actually is ..if we tell you what the type actually is thats call concrete 
 type.. we dont phicially care what it is, we just want something that meets the specification. All i care about is how yout stack behave i dont a
 actually care what under the hood ...
+
+Malloc (memory allocation ) we use malloc to get the memory allocation at the heap or unless progrmme automaatically allocate the memory at the stuck which is clear if it is not used. 
+Heap if you ask the memory to heap it will allocate but if you forget to claer it then it will stay forever that may slow your computer 
+we use first letter upper case to assign the memory at heap... 
