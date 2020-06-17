@@ -1,0 +1,16 @@
+1. linear search: we can say in average you have to go through the half way which can be express by n/2 or n( if you have to go thorough 
+all the way 
+2. random search:
+3.Linear search on a sorted list: n/2 on average if you find it or not 
+4. binary serach (on a srted list): binary means spiling into 2 or half,  every time goes half way interval for exammple find a number from 1 to 100 first we break in in half to 50 then we brek
+it half again to 25 and 13, 7, 4 2, 1 in worst case we have to search for 7 times to find a number from 100 log2^n or log n^2 
+5. Tree : in binary tree evry node contain data and every node expand in two so at the end every node has to have two null value. tree helps to create 
+a  unique spot. when we need to entre we can find a soot to enter it by value.it takes logn to find and constant in search. ny number biger than the 
+previos value go right and smaller go left. all the number biger than the parents goes to right and smalle than the parents goes to the 
+left. if tree is unbalanced it is lenaer anad when it is balanced it is logerithmic. 
+
+struct treenode { 
+int value ;
+tree left;
+tree right; 
+typedef struct treenode *tree; // tree is pointer to struct treenode 
